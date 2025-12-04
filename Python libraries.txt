@@ -1,0 +1,24 @@
+#Importing libraries
+
+# --- 1. Core Data Manipulation & Mathematics ---
+import numpy as np #Used for handling multi-dimensional arrays, matrices, and high-level mathematical functions.
+import pandas as pd #Used to creating DataFrames, reading files (CSV, Excel), and cleaning data.
+
+# --- 2. Visualization Libraries ---
+import missingno as msno #A specialized library specifically for visualizing missing values (NaNs)
+import matplotlib.pyplot as plt #Used for creating static, basic charts and customizing plot details (figures, axes, sizes)
+import seaborn as sns #used for making statistical graphics look attractive and informative with less code.
+import plotly.graph_objs as go #Custom dashboards
+import plotly.express as px #Used for creating complex, interactive plots (with zoom/hover) very quickly
+
+
+# --- 3. Machine Learning & Preprocessing ---
+from sklearn.impute import KNNImputer #A strategy for filling in missing data. It replaces NaNs based on the values of the 'k' nearest neighbors found in the training set
+from sklearn.linear_model import LinearRegression #A basic predictive model. Used to model the relationship between a scalar response and one or more explanatory variables.
+
+# --- 4. Statistics & Hypothesis Testing ---
+import scipy.stats as stats #The primary module for probability distributions and statistical functions.
+
+# --- 5. Specific Math Utilities ---
+from numpy import median #Specific import to calculate the median (middle value) of a dataset.
+from numpy import std #Specific import to calculate standard deviation (spread of data).
